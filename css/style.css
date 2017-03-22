@@ -29,22 +29,24 @@ main{
   height: 700px;
   float: right;
 }
-.left-box{
+.box{
   width: 50%;
   height: 520px;
   float: left;
   background-color: #becbb7;
-}
-.left-box img{
-  height: 70%;
-  display: inline-block;
-  vertical-align: middle;
-}
-.right-box{
-  width: 50%;
-  height: 520px;
-  float: right;;
-  background-color: #8da79d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
-  .right-box img{
-    height: 70%;
+  .box a{
+    position: absolute;
+    // devi compilare qui con top, left width:  height etc etc
+  }
+  .box img{
+    max-height: 70%;
+    max-width: 90%;
+    display: inline;
+  }
+.box-darkgreen{
+  background-color: #8da79d;
+}
