@@ -22,23 +22,26 @@ header{
   padding-bottom: 70px;
 }
 .img-responsive:hover{
-    text-decoration: none;
-    background-color: grey;
+    background-color: grey; non cambia colore il colore
 }
 .logo-home{
   text-align: center;
 }
 nav{
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 nav ul{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+ul li{
+  padding-bottom: 30px;
+  width: 100%;
+}
 .menu-icon, .shop-icon, .search-icon{
-  width: 30%;
+  width: 25%;
 }
 main{
   width: 90%;
@@ -46,27 +49,26 @@ main{
   float: right;
 }
 .box{
-  width: 50%;
-  height: 520px;
-  float: left;
-  background-color: #becbb7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-  .box a{
-    position: relative;
-  }
-  .box img{
-    max-height: 70%;
-    max-width: 90%;
-    display: inline;
-  }
-  .box:hover{
-    transition: all 0.3s ease-in-out;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.3);
-  }
+width: 50%;
+height: 520px;
+float: left;
+background-color: #becbb7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box a{
+  position: relative;
+}
+.box img{
+  max-height: 70%;
+  max-width: 90%;
+  display: inline;
+}
+.box:hover{
+  background-color: rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
 .box-darkgreen{
   position: relative;
   background-color: #7c9180;
@@ -149,8 +151,56 @@ main{
   align-items: center;
   justify-content: center;
 }
+.fourbox-frame:hover{
+  background-color: grey;
+  transition: all 0.3s ease-in-out;
+}
 .fourbox img{
   max-height: 70%;
   max-width: 90%;
   display: inline;
+}
+.multibox{
+  float: left;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cac4b9;
+}
+.multibox-frame{
+  float: left;
+  width: 25%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.multibox-frame:hover{
+  background-color: grey;
+  transition: all 0.3s ease-in-out;
+}
+.multibox img{
+  max-height: 70%;
+  max-width: 90%;
+  display: inline;
+}
+.green{
+  position: relative;
+  background-color: #7c9180;
+}
+.bordeaux{
+  position: relative;
+  background-color: #7a242e;
+}
+.pink{
+  position: relative;
+  background-color: #eac9bd;
+}
+.banner{
+  float: left;
+}
+.banner img{
+  width: 100%;
 }
