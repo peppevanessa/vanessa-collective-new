@@ -18,14 +18,16 @@ header{
   padding-bottom: 80px;
 }
 .img-responsive{
-  width: 50%;
+  width: 40%;
   padding-bottom: 70px;
 }
-.img-responsive:hover{
-    background-color: grey; non cambia colore il colore
-}
+
 .logo-home{
   text-align: center;
+}
+.logo:hover img {
+  opacity: 0.5;
+  transition: ease-in-out 0.25s
 }
 nav{
   position: relative;
@@ -57,6 +59,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+.pinkbox{
+width: 50%;
+height: 520px;
+float: left;
+background-color: #c5a591;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 .box a{
   position: relative;
 }
@@ -66,6 +77,10 @@ justify-content: center;
   display: inline;
 }
 .box:hover{
+  background-color: rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
+.pinkbox:hover{
   background-color: rgba(0,0,0,0.3);
   transition: all 0.3s ease-in-out;
 }
@@ -203,4 +218,35 @@ justify-content: center;
 }
 .banner img{
   width: 100%;
+}
+.minibox{
+  float: left;
+  width: 24.9%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #d9d9d9;
+}
+.minibox h3{
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  text-decoration: none;
+}
+.minibox a{
+  color: black;
+  text-decoration: none;
+}
+.minibox a:hover{
+  text-decoration: underline;
+}
+.minibox ul li{
+  padding-bottom: 10px;
+}
+footer{
+  float: left;
+  width: 100%;
+  height: 70px;
+  background-color: black;
 }
